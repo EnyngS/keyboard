@@ -1,0 +1,53 @@
+// Файл обнуляющих стилей
+@import '_nullstyle';
+
+$maxWidth: 1280;
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $maxWidth: $maxWidth - 320;
+  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+
+// Переменные для блока
+
+.text {
+  display: block;
+  width: 1170px;
+  margin: 0 auto;
+  border: 3px solid #282c34;
+  margin-bottom: 30px;
+}
+.wrap {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 8px;
+  justify-content: space-between;
+  .double {
+    width: 150px;
+  }
+  .tree {
+    width: 210px;
+  }
+  .Space {
+    width: 540px;
+  }
+  div {
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    color: antiquewhite;
+    font-size: 26px;
+    background-color: #282c34;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .active {
+    background-color: aqua !important;
+  }
+}
