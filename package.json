@@ -1,0 +1,35 @@
+{
+  "type": "module",
+  "name": "keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "prettier": "2.6.0",
+    "eslint-config-airbnb": "^19.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": {
+    "endOfLine": "auto",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "printWidth": 5000,
+    "arrowParens": "always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnyngS/keyboard.git"
+  },
+  "author": "Enung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnyngS/keyboard/issues"
+  },
+  "homepage": "https://github.com/EnyngS/keyboard#readme"
+}
