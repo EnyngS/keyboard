@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "keyboard",
   "version": "1.0.0",
   "description": "",
@@ -18,7 +19,7 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "es5",
-    "printWidth": 500,
+    "printWidth": 5000,
     "arrowParens": "always"
   },
   "repository": {

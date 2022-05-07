@@ -10,44 +10,49 @@ $maxWidth: 1280;
 
 // Переменные для блока
 
-.text {
-  display: block;
-  width: 1170px;
-  margin: 0 auto;
-  border: 3px solid #282c34;
-  margin-bottom: 30px;
-}
+// .text {
+//   display: block;
+//   width: 1170px;
+//   margin: 50px auto;
+//   border: 3px solid #282c34;
+//   border-radius: 20px;
+//   margin-bottom: 30px;
+//   background-color: #282c34;
+//   padding: 20px;
+//   font-size: 20px;
+//   color: antiquewhite;
+// }
 .wrap {
-  width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  grid-gap: 8px;
-  justify-content: space-between;
-  .double {
-    width: 150px;
-  }
-  .tree {
-    width: 210px;
-  }
-  .Space {
-    width: 540px;
-  }
-  div {
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    color: antiquewhite;
-    font-size: 26px;
-    background-color: #282c34;
-    &:hover {
-      cursor: pointer;
-    }
-  }
-  .active {
-    background-color: aqua !important;
-  }
+  //   width: 1170px;
+  //   margin: 0 auto;
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   grid-gap: 8px;
+  //   justify-content: space-between;
+  //   .double {
+  //     width: 150px;
+  //   }
+  //   .tree {
+  //     width: 210px;
+  //   }
+  //   .Space {
+  //     width: 540px;
+  //   }
+  //   div {
+  //     //  border-radius: 7px;
+  //     //  display: flex;
+  //     //  align-items: center;
+  //     //  justify-content: center;
+  //     //  width: 70px;
+  //     //  height: 70px;
+  //     //  color: antiquewhite;
+  //     //  font-size: 26px;
+  //     //  background-color: #282c34;
+  //     &:hover {
+  //       cursor: pointer;
+  //     }
+  //   }
+  //   .active {
+  //     background-color: aqua !important;
+  //   }
 }
